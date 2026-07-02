@@ -12,7 +12,7 @@ public class RateLimiterService {
         this.rateLimiter = rateLimiter;
     }
 
-    public boolean allow(String clientId) {
-        return rateLimiter.allowRequest(clientId);
+    public boolean allow(String clientId, int limit, long windowSizeMillis) {
+        return rateLimiter.allowRequest(clientId, limit, windowSizeMillis);
     }
 }

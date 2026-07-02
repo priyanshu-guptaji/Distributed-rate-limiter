@@ -1,4 +1,4 @@
-package com.ratelimiter.limiter.fixedwindow;
+package com.priyanshu.ratelimiter.model;
 
 public class WindowData {
 
